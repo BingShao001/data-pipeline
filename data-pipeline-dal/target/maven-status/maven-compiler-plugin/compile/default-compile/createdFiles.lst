@@ -1,0 +1,12 @@
+com/yb/pipeline/dal/repository/DataMappingRuleMapper.class
+com/yb/pipeline/dal/entity/JobEntity.class
+com/yb/pipeline/dal/entity/BaseEntity.class
+com/yb/pipeline/dal/entity/JobEntity$Builder.class
+com/yb/pipeline/dal/entity/HttpResourceEntity.class
+com/yb/pipeline/dal/entity/DataMappingRuleEntity.class
+com/yb/pipeline/dal/entity/HttpResourceEntity$Builder.class
+com/yb/pipeline/dal/repository/HttpResourceMapper.class
+com/yb/App.class
+com/yb/pipeline/dal/MyBatisConfig.class
+com/yb/pipeline/dal/entity/DataMappingRuleEntity$Builder.class
+com/yb/pipeline/dal/repository/JobMapper.class

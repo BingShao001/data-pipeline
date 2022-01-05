@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yb.pipeline.dal.repository.HttpResourceMapper">
+    <!--
+         方案一: 这表的主键必须是自增长的 auto_increment
+              useGeneratedKeys="true" 让自增长的主键开启返回功能
+              keyColumn="id"  user表中主键列
+              keyProperty="id" user实体主键属性
+
+              注意：支持主键自增类型的数据库 MySQL 和 SqlServer ， oracle不支持
+    -->
+    <insert id="save" useGeneratedKeys="true" keyColumn="id" keyProperty="id"
+            parameterType="com.yb.pipeline.dal.entity.HttpResourceEntity">
+             insert into data_pipeline_http_resource
+              (`resource_id`,`resource_name`,`uri`,`param`,`http_type`,`status`,`gmt_create`,`gmt_modified`)
+              values (#{resourceId},#{resourceName},#{uri},#{param},#{httpType},#{status},#{gmtCreate},#{gmtModified})
+    </insert>
+
+    <!--
+            方案二: <selectKey>
+             keyColumn="id" user表中主键列
+             keyProperty="id" user实体主键属性
+             resultType="int" user实体主键属性类型
+             order="AFTER"  表示此标签内部sql语句在insert执行之前（执行），还是之后执行（执行）
+                AFTER 之后执行【在自增主键时】
+                BEFORE 之前执行【使用指定主键时】
+在MYSQL 中 , order是AFTER , 因为当前及记录的主键值在insert语句执行成功之后才能拿到 , 而在ORACLE中 ,oder是BEFORE , 因为ORACLE需要先从序列取到值 , 再将其作为主键插入到数据库
+    -->
+    <insert id="addUser2">
+        <selectKey keyColumn="id" keyProperty="id" resultType="int" order="AFTER">
+            SELECT LAST_INSERT_ID()
+        </selectKey>
+        insert into user values(null, #{username},#{birthday},#{sex},#{address})
+    </insert>
+</mapper>

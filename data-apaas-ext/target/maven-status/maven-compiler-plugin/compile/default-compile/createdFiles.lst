@@ -1,0 +1,4 @@
+com/yb/datapipeline/apaas/APaaSResponseDataConfigExt.class
+com/yb/datapipeline/apaas/APaaSWestDataHttpSourceExt.class
+com/yb/datapipeline/apaas/APaaSSyncStrategyExt.class
+com/yb/datapipeline/apaas/APaaSDataTempleExt.class

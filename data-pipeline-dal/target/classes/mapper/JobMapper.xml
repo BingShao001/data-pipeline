@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.yb.pipeline.dal.repository.JobMapper">
+    <!--
+         方案一: 这表的主键必须是自增长的 auto_increment
+              useGeneratedKeys="true" 让自增长的主键开启返回功能
+              keyColumn="id"  user表中主键列
+              keyProperty="id" user实体主键属性
+
+              注意：支持主键自增类型的数据库 MySQL 和 SqlServer ， oracle不支持
+    -->
+    <insert id="save" useGeneratedKeys="true" keyColumn="id" keyProperty="id"
+            parameterType="com.yb.pipeline.dal.entity.JobEntity">
+             insert into data_pipeline_job
+              (`resource_id`,`resource_name`,`job_type`,`job_cron`,`job_status`,`status`,`gmt_create`,`gmt_modified`)
+               values (#{resourceId},#{resourceName},#{jobType},#{jobCron},#{jobStatus},#{status},#{gmtCreate},#{gmtModified})
+    </insert>
+
+
+</mapper>
