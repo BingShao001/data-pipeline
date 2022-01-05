@@ -1,5 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="32598e68-3f94-441f-9300-d3d14a79f70e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/MyBatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/entity/BaseEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/entity/DataMappingRuleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/entity/DataMappingRuleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/entity/HttpResourceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/entity/HttpResourceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/entity/JobEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/entity/JobEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/repository/DataMappingRuleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/repository/DataMappingRuleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/repository/HttpResourceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/repository/HttpResourceMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/repository/JobMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/repository/JobMapper.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -14,12 +36,29 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="ProjectId" id="23GpL6HnwNjNrDcV6lmox3Cl0Y7" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -29,78 +68,70 @@
       <module />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+    <configuration name="DataPipelineApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="data-pipeline-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tuya.DataPipelineApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
+      <predefined_log_file enabled="true" id="idea.log" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="32598e68-3f94-441f-9300-d3d14a79f70e" name="Default Changelist" comment="" />
+      <created>1641370218478</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1641370218478</updated>
+      <workItem from="1641370224250" duration="2561000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="-1436" y="151" key="chooseDestDirectoryDialog" timestamp="1641372719547">
+      <screen x="-1920" y="-113" width="1920" height="1057" />
+    </state>
+    <state x="-1436" y="151" key="chooseDestDirectoryDialog/0.23.1440.836/-1920.-113.1920.1057@-1920.-113.1920.1057" timestamp="1641371422371" />
+    <state x="-1436" y="151" key="chooseDestDirectoryDialog/0.23.1440.837/-1920.-113.1920.1057@-1920.-113.1920.1057" timestamp="1641372719547" />
+    <state x="-1528" y="231" width="842" height="524" key="find.popup" timestamp="1641371498923">
+      <screen x="-1920" y="-113" width="1920" height="1057" />
+    </state>
+    <state x="-1528" y="231" width="842" height="524" key="find.popup/0.23.1440.836/-1920.-113.1920.1057@-1920.-113.1920.1057" timestamp="1641371498923" />
   </component>
 </project>

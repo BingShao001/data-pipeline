@@ -1,6 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.8" />
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="data-pipeline-ability" />
+        <module name="data-pipeline-common" />
+        <module name="data-pipeline-starter" />
+        <module name="data-pipeline-dal" />
+        <module name="data-pipeline-ext" />
+        <module name="data-pipeline-http" />
+        <module name="data-apaas-ext" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="1.8">
+      <module name="data-apaas-ext" target="11" />
+      <module name="data-pipeline" target="11" />
+      <module name="data-pipeline-ability" target="11" />
+      <module name="data-pipeline-common" target="11" />
+      <module name="data-pipeline-dal" target="11" />
+      <module name="data-pipeline-ext" target="11" />
+      <module name="data-pipeline-http" target="11" />
+      <module name="data-pipeline-starter" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="data-apaas-ext" options="-parameters" />
+      <module name="data-pipeline-ability" options="-parameters" />
+      <module name="data-pipeline-common" options="-parameters" />
+      <module name="data-pipeline-dal" options="-parameters" />
+      <module name="data-pipeline-ext" options="-parameters" />
+      <module name="data-pipeline-http" options="-parameters" />
+      <module name="data-pipeline-starter" options="-parameters" />
+    </option>
   </component>
 </project>
