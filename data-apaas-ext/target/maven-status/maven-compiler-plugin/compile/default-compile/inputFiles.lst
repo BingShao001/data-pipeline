@@ -1,4 +1,4 @@
-/Users/bing/data/data-pipeline/data-apaas-ext/src/main/java/com/yb/datapipeline/apaas/APaaSDataTempleExt.java
-/Users/bing/data/data-pipeline/data-apaas-ext/src/main/java/com/yb/datapipeline/apaas/APaaSWestDataHttpSourceExt.java
-/Users/bing/data/data-pipeline/data-apaas-ext/src/main/java/com/yb/datapipeline/apaas/APaaSSyncStrategyExt.java
-/Users/bing/data/data-pipeline/data-apaas-ext/src/main/java/com/yb/datapipeline/apaas/APaaSResponseDataConfigExt.java
+/Users/bing/data-pipeline/data-apaas-ext/src/main/java/com/yb/datapipeline/apaas/APaaSDataTempleExt.java
+/Users/bing/data-pipeline/data-apaas-ext/src/main/java/com/yb/datapipeline/apaas/APaaSSyncStrategyExt.java
+/Users/bing/data-pipeline/data-apaas-ext/src/main/java/com/yb/datapipeline/apaas/APaaSWestDataHttpSourceExt.java
+/Users/bing/data-pipeline/data-apaas-ext/src/main/java/com/yb/datapipeline/apaas/APaaSResponseDataConfigExt.java

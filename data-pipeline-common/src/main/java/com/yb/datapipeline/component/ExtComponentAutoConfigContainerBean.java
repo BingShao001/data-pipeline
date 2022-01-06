@@ -26,10 +26,19 @@ public class ExtComponentAutoConfigContainerBean implements BeanPostProcessor {
             Class<?> superclass = aClass.getSuperclass();
             String simpleName = superclass.getSimpleName();
             ExtComponent extComponent = aClass.getAnnotation(ExtComponent.class);
-            String extKey = simpleName + UNDERLINE + extComponent.bizCode() + UNDERLINE + extComponent.subCode();
+            String extKey = this.getKey(extComponent, simpleName);
             extContainer.addExt(extKey, (BaseExt) bean);
             log.info("load bean : key {} mame {}", extKey, simpleName);
         }
         return bean;
+    }
+
+    private String getKey(ExtComponent extComponent, String simpleName) {
+        return new StringBuilder(simpleName)
+                .append(UNDERLINE)
+                .append(extComponent.bizCode())
+                .append(UNDERLINE)
+                .append(extComponent.subCode())
+                .toString();
     }
 }

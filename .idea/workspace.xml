@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="32598e68-3f94-441f-9300-d3d14a79f70e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/MyBatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/MyBatisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/entity/BaseEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/entity/BaseEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/entity/DataMappingRuleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/entity/DataMappingRuleEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/entity/HttpResourceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/entity/HttpResourceEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/entity/JobEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/entity/JobEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/repository/DataMappingRuleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/repository/DataMappingRuleMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/repository/HttpResourceMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/repository/HttpResourceMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/tuya/pipeline/dal/repository/JobMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal/repository/JobMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/component/AutoConfiguredExtRegistrar.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/component/ExtAutoConfiguredRegistrar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/component/ExtClassPathBeanDefinitionScanner.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/component/ExtClassPathBeanDefinitionScanner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/component/ExtComponentAutoConfigContainerBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/component/ExtComponentAutoConfigContainerBean.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/component/ExtContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/component/ExtContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/config/ExtConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-pipeline-common/src/main/java/com/yb/datapipeline/config/ExtConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +22,7 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="$MAVEN_REPOSITORY$" />
         <option name="nonRecursive" value="true" />
-        <option name="userSettingsFile" value="$USER_HOME$/environment/apache-maven-3.5.0/conf/settings.xml" />
+        <option name="userSettingsFile" value="$PROJECT_DIR$/../environment/apache-maven-3.5.0/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -50,7 +45,7 @@
     <property name="last_directory_selection" value="$PROJECT_DIR$/data-pipeline-dal/src/main/java/com/yb/pipeline/dal" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="node" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.scopes" />
@@ -60,7 +55,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.DataPipelineApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -76,6 +71,13 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataPipelineApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="data-pipeline-starter" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yb.DataPipelineApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -117,6 +119,7 @@
       <option name="presentableId" value="Default" />
       <updated>1641370218478</updated>
       <workItem from="1641370224250" duration="2561000" />
+      <workItem from="1641451982645" duration="761000" />
     </task>
     <servers />
   </component>
@@ -124,14 +127,23 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="396" y="149" key="NewModule_or_Project.wizard" timestamp="1641452087699">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="396" y="149" key="NewModule_or_Project.wizard/0.23.1440.837/-1920.-113.1920.1057@0.23.1440.837" timestamp="1641452087699" />
+    <state x="227" y="23" key="SettingsEditor" timestamp="1641452096955">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="227" y="23" key="SettingsEditor/0.23.1440.837/-1920.-113.1920.1057@0.23.1440.837" timestamp="1641452096955" />
     <state x="-1436" y="151" key="chooseDestDirectoryDialog" timestamp="1641372719547">
       <screen x="-1920" y="-113" width="1920" height="1057" />
     </state>
     <state x="-1436" y="151" key="chooseDestDirectoryDialog/0.23.1440.836/-1920.-113.1920.1057@-1920.-113.1920.1057" timestamp="1641371422371" />
     <state x="-1436" y="151" key="chooseDestDirectoryDialog/0.23.1440.837/-1920.-113.1920.1057@-1920.-113.1920.1057" timestamp="1641372719547" />
-    <state x="-1528" y="231" width="842" height="524" key="find.popup" timestamp="1641371498923">
-      <screen x="-1920" y="-113" width="1920" height="1057" />
+    <state x="294" y="295" width="834" height="472" key="find.popup" timestamp="1641452180298">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="-1528" y="231" width="842" height="524" key="find.popup/0.23.1440.836/-1920.-113.1920.1057@-1920.-113.1920.1057" timestamp="1641371498923" />
+    <state x="294" y="295" width="834" height="472" key="find.popup/0.23.1440.837/-1920.-113.1920.1057@0.23.1440.837" timestamp="1641452180298" />
   </component>
 </project>

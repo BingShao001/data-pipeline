@@ -8,9 +8,7 @@ import org.springframework.core.type.filter.AnnotationTypeFilter;
 
 import java.util.Set;
 
-/**
- * @author: xie fei
- */
+
 public class ExtClassPathBeanDefinitionScanner extends ClassPathBeanDefinitionScanner {
     public ExtClassPathBeanDefinitionScanner(BeanDefinitionRegistry registry, boolean useDefaultFilters) {
         super(registry, useDefaultFilters);

@@ -30,8 +30,7 @@ public class ExtContainer {
     }
 
     private <T> T getExt(String bizCode, Class<T> tClass) {
-        String simpleName = tClass.getSimpleName();
-        String key = new StringBuilder(simpleName)
+        String key = new StringBuilder(tClass.getSimpleName())
                 .append(UNDERLINE)
                 .append(bizCode)
                 .append(UNDERLINE)
@@ -43,8 +42,7 @@ public class ExtContainer {
     }
 
     private <T> T getExt(String bizCode, String subCode, Class<T> tClass) {
-        String simpleName = tClass.getSimpleName();
-        String key = new StringBuilder(simpleName)
+        String key = new StringBuilder(tClass.getSimpleName())
                 .append(UNDERLINE)
                 .append(bizCode)
                 .append(UNDERLINE)

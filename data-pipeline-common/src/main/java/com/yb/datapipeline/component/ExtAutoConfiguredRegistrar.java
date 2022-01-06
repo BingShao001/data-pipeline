@@ -18,7 +18,7 @@ import org.springframework.core.type.AnnotationMetadata;
  * @create 05/01/2022
  **/
 @Slf4j
-public class AutoConfiguredExtRegistrar implements ImportBeanDefinitionRegistrar, ResourceLoaderAware, BeanFactoryAware {
+public class ExtAutoConfiguredRegistrar implements ImportBeanDefinitionRegistrar, ResourceLoaderAware, BeanFactoryAware {
     public static final String BASE_PACKAGE = "com.yb.datapipeline";
     private ResourceLoader resourceLoader;
     private BeanFactory beanFactory;
